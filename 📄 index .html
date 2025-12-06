@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghadduz - Handmade Bags & Accessories</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <nav class="container">
+            <div class="logo">Ghadduz</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="hamburger" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Ghadduz</h1>
+                <p class="tagline">Crafted Stories. Timeless Style.</p>
+                <a href="#products" class="cta-button">Shop Now</a>
+            </div>
+            <div class="hero-image">
+                <img src="images/hero-placeholder.jpg" alt="A beautiful handmade bag hero image">
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم المنتجات الجديد -->
+    <section id="products" class="products section-padding">
+        <h2 class="section-title">✨ Our Collection</h2>
+        <div class="container product-grid">
+
+            <div class="product-card" data-img-src="images/night.jpg" data-caption="Night - Elegant Night Bag">
+                <img src="images/night.jpg" alt="Night">
+                <h3>Night</h3>
+                <p>Elegant night bag for special occasions.</p>
+                <div class="price">220 EGP</div>
+            </div>
+
+            <div class="product-card" data-img-src="images/new_bag.jpg" data-caption="New Bag - Stylish Everyday Bag">
+                <img src="images/new_bag.jpg" alt="New Bag">
+                <h3>New Bag</h3>
+                <p>Stylish and practical everyday bag.</p>
+                <div class="price">250 EGP</div>
+            </div>
+
+            <div class="product-card" data-img-src="images/necklace.jpg" data-caption="Necklace - Handmade Delicate">
+                <img src="images/necklace.jpg" alt="Necklace">
+                <h3>Necklace</h3>
+                <p>Handmade delicate necklace.</p>
+                <div class="price">180 EGP</div>
+            </div>
+
+            <div class="product-card" data-img-src="images/morning.jpg" data-caption="Morning - Morning Tote Bag">
+                <img src="images/morning.jpg" alt="Morning">
+                <h3>Morning</h3>
+                <p>Morning tote bag, perfect for daily use.</p>
+                <div class="price">300 EGP</div>
+            </div>
+
+            <div class="product-card" data-img-src="images/mini_bag.jpg" data-caption="Mini Bag - Compact Essentials">
+                <img src="images/mini_bag.jpg" alt="Mini Bag">
+                <h3>Mini Bag</h3>
+                <p>Compact mini bag for essentials.</p>
+                <div class="price">190 EGP</div>
+            </div>
+
+            <div class="product-card" data-img-src="images/holder.jpg" data-caption="Holder - Handy Accessory Holder">
+                <img src="images/holder.jpg" alt="Holder">
+                <h3>Holder</h3>
+                <p>Handy accessory holder.</p>
+                <div class="price">160 EGP</div>
+            </div>
+
+            <div class="product-card" data-img-src="images/frim_bag.jpg" data-caption="Frim Bag - Durable Bag">
+                <img src="images/frim_bag.jpg" alt="Frim Bag">
+                <h3>Frim Bag</h3>
+                <p>Durable bag with firm structure.</p>
+                <div class="price">350 EGP</div>
+            </div>
+
+            <div class="product-card" data-img-src="images/crystal_accessories.jpg" data-caption="Crystal Accessories - Elegant Shiny">
+                <img src="images/crystal_accessories.jpg" alt="Crystal Accessories">
+                <h3>Crystal Accessories</h3>
+                <p>Shiny and elegant crystal accessory.</p>
+                <div class="price">200 EGP</div>
+            </div>
+
+        </div>
+    </section>
+
+    <div id="gallery-modal" class="modal">
+        <span class="close-btn">&times;</span>
+        <img class="modal-content" id="modal-image" alt="Enlarged Product View">
+        <div id="caption"></div>
+    </div>
+
+    <section id="about" class="about section-padding color-bg">
+        <div class="container">
+            <h2 class="section-title">💖 The Ghadduz Story</h2>
+            <div class="about-content">
+                <article>
+                    <h3>Our Journey</h3>
+                    <p>
+                        Ghadduz started with a simple needle and thread, fueled by a passion for preserving the beauty of slow fashion. Every stitch tells the story of <strong>dedication and artistry</strong>, moving away from mass production to focus on unique, long-lasting pieces. We believe in creating accessories that not only look good but feel good, knowing they were made with care.
+                    </p>
+                </article>
+                <article>
+                    <h3>Sustainable Materials</h3>
+                    <p>
+                        We prioritize <strong>natural and locally sourced materials</strong> like high-quality cotton, linen, and sustainable leather trimmings. Our commitment ensures that each bag and accessory is not only beautiful but also kind to the planet. We constantly seek new ways to minimize our footprint.
+                    </p>
+                </article>
+                <article>
+                    <h3>The Handmade Value</h3>
+                    <p>
+                        The true value of a Ghadduz piece lies in its <strong>uniqueness</strong>. Because everything is genuinely handmade, no two items are exactly alike. This human touch imbues each product with a soul and character that machine-made goods simply cannot replicate. You are buying a piece of art, not just an accessory.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <h2 class="section-title">📧 Get In Touch</h2>
+            <div class="contact-grid">
+                
+                <div class="social-links">
+                    <h3>Chat with us!</h3>
+                    <a href="https://wa.me/201000000000" target="_blank" class="social-btn whatsapp">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </a>
+                    <a href="https://www.instagram.com/yourbrandhandle" target="_blank" class="social-btn instagram">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+                </div>
+
+                <div class="contact-form">
+                    <h3>Send a quick message</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="cta-button">Send Message</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Ghadduz. Crafted with love. | All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
